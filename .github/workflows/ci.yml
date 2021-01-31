@@ -15,4 +15,4 @@ jobs:
         uses: docker/setup-buildx-action@v1
       - name: Build
         run: |
-          docker buildx .
+          docker buildx build .
